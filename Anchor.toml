@@ -10,7 +10,7 @@ escrow = "5yn2GC9iw2KmyEbk6ACZemUKu51MHrfpFHrKufi9NYs3"
 
 [provider]
 cluster = "localnet"
-wallet = "~/.config/solana/id.json"
+wallet = "~/.config/solana/turbin3-class.json"
 
 [scripts]
 test = "cargo test"
