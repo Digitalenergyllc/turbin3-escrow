@@ -26,5 +26,8 @@ pub mod escrow {
         ctx.accounts.deposit(deposit)
     }
 
-    
+    #[instruction(discriminator = 3)]
+    pub fn take(ctx: Context<Take>) -> Result<()> {
+        ctx.accounts.take()
+    }
 }
